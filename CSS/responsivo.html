@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste responsividade</title>
+
+   <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+
+        :root{
+            --cor0: #f8b3c0 ;
+            --cor1: #fae2e2 ;
+            --cor2: #D10026;
+            --cor3: #b91230;
+            --cor4: #4b0210;
+            
+            --font-principal: Arial;
+            --font-h1: 'Rubik Moonrocks', 'cursive'; 
+            --font-h2: 'Rubik Wet Paint', 'cursive';
+         }
+
+         body{
+            background-color: var(--cor0);
+            font-family: var(--font-principal);
+            
+         }
+
+         main{
+             background-color: white;
+             margin: auto;
+             padding: 10px;
+             border-radius: 10px;
+             min-height: 320px;
+             max-width: 800px;
+           
+         }
+
+         h1{
+             font-family: var(--font-h1);
+             background-color: var(--cor4);
+             color: var(--cor1);
+             text-align: center;
+         }
+
+         h2{
+             font-family: var(--font-h2);
+             
+         }
+
+         p{
+             text-align: justify;
+         }
+
+         img{
+             width: 100%;
+         }
+
+   </style>
+
+</head>
+<body>
+    <main>
+        <h1>Teste de responsividade</h1>
+            <h2>Testando</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ipsam ab rerum possimus ipsum ratione distinctio harum fugiat aperiam, natus laboriosam iusto eaque ducimus quae dicta ut expedita ipsa cum.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam quo amet voluptate pariatur, optio a eius iste libero. Magni, debitis numquam eius beatae nostrum soluta illo officia minima fugit tenetur?
+                </p>
+                <picture>
+                    <source media="(max-width:800px )" srcset="imagens/irina-blok-pq.jpg">
+                    <img src="imagens/irina-blok.jpg" alt="Irina blok">
+                </picture>
+                <h2>Desbugando</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur cumque saepe tenetur dolore. Adipisci deleniti molestiae molestias eius nam magnam assumenda, nihil nulla iure? Nulla quas debitis deleniti natus quis.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis doloribus sed minus dicta pariatur temporibus rerum non expedita eligendi? Quam, obcaecati eligendi repellat asperiores doloremque cumque quidem vel et distinctio.
+                    </p>
+    </main>
+</body>
+</html>

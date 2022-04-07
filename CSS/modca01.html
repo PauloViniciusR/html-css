@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos de Caixa- grouping tags</title>
+
+     <style>
+      
+          body{
+               font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+               background-color: dimgray;
+          }
+
+          h1{
+               padding: 10px;
+               text-align: center;
+               box-shadow: 1px 1px 8px 1px black;
+               border-radius: 6px;
+          }
+
+          header{
+               background-color: white;
+               padding: 10px;
+               margin: 10px;
+          }
+
+          nav{
+              margin: 10px;
+              padding: 3px;
+              background-color: lightblue;
+              box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.801);
+              
+              
+          }
+
+          nav > a{
+               color: rgb(241, 45, 45);
+               font-weight:bold;
+               margin: 30px;  
+               text-decoration: none;
+              
+          }
+
+          nav > a:hover{
+               text-decoration: underline;
+          }
+
+          section#assuntos{
+               background-color: rgb(185, 231, 231);
+               text-align: center;
+               margin: 10px;
+               font-weight: bold;    
+               color: rgb(0, 0, 17);   
+               
+          }
+
+
+          main{
+               background-color: white;
+               padding: 10px;
+               margin: 10px;
+               border-radius: 10px 15px;
+          }
+
+          article{
+               background-color: aliceblue;
+          }
+
+        article > aside{
+             background-color: rgb(196, 226, 252);
+             padding: 5px;
+         }
+
+         article#link{
+              text-align: right;
+              margin: 10px;
+              padding: 5px;
+            
+         }
+
+          
+        footer{
+               background-color: black;
+               color: white;
+               padding: 5px;
+               margin: 0px;
+               text-align: center;
+          }
+
+          footer > p{
+               margin: 0px;
+          }
+
+          
+
+     
+     </style>
+
+</head>
+<body>
+
+     <header>
+          <h1>Desenvolvendo site</h1>
+               <nav>
+                   <a href="#">Referência</a>
+                   <a href="#">Citação</a>
+                   <a href="#">Rodapé</a>                    
+               </nav>
+     </header>
+     <main>
+          <section id="assuntos">
+               <p> Esportes Politica Tecnologia</p>
+          </section>
+          <section id="noticias">
+               <article>
+                    <h2>Noticia sobre o Brasil</h2>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nisi unde deleniti, a nam molestias, ab sit distinctio, eveniet iste labore! Vel itaque accusantium, rerum quae qui ea perferendis labore?</p>
+                    <h2>Atualizacções da Tecnologia</h2>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa consequuntur velit, asperiores maiores saepe delectus rerum totam a excepturi temporibus sint necessitatibus recusandae! Qui quaerat veritatis vel rerum numquam. Aut.</p>
+                    <h2>Vexame do mengaum</h2>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iure corrupti fuga explicabo recusandae quisquam autem modi minus ipsa eaque atque perferendis blanditiis tenetur adipisci beatae reprehenderit assumenda, asperiores nihil.</p>
+                    <aside>
+                       <p>Artigo escrito por Paulo Vinicius</p>
+                      
+                    </aside>
+               </article>
+               <article id="link">
+                    <a href="https://portaldanoticia.com" target="_blank" rel="next">Artigo completo</a>
+               </article>
+          </section>
+     </main>
+     <footer>
+          <p>Desenvolvendo pelo curso em video</p>
+     </footer>
+     <div id="bola">
+
+     </div>
+
+
+
+
+</body>
+</html>
