@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Responsivo</title>
+
+    <style>
+        body{
+            background-image: linear-gradient(to left, gray, black);
+           
+        }
+
+        main{
+            background-color: white;
+            margin: auto;
+            min-width: 320px;
+            max-width: 600px;
+            padding: 10px;
+           
+        }
+
+        h1{
+            background-color: rgb(12, 56, 39);
+            text-align: center;
+            color: white;
+
+        }
+
+        div.video{
+            margin: 0px 20px;
+            padding: 20px;
+            padding-bottom: 60%;
+            position: relative;
+        }
+      
+        div.video > iframe{
+            top: 0px;
+            left: 0px;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+        }
+
+    
+
+
+        
+    </style>
+
+
+
+</head>
+<body>
+    <main>
+    
+            <h1>Teste de video responsivo</h1>
+
+             <h2>Video CSS</h2>
+    
+             <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/U-ePoM4EDXA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+             <h2> Video HTML</h2>
+                
+             <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/1wfeqDyMUx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+           
+
+    </main>
+</body>
+</html>
