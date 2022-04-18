@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        caption{
+            font-size: 1.5em;
+            padding: 10px;
+            font-weight: bold;
+            background-color: rgb(221, 221, 221);
+    }
+            
+        .header{
+            background-color: rgb(92, 89, 89);
+            color: white;
+
+        }
+        table{
+            width: 600px;
+            border-collapse: collapse;
+        }
+
+         tr, th{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        td{
+           border: 1px solid black;
+           padding: 20px;
+        }
+
+        .nome{
+            text-align: left;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <table>  
+        <colgroup>
+            <col class="cgrupo" span="2">
+            <col class="cnome">
+            <col class="cfilmes">
+            
+        </colgroup>
+
+        
+            <caption>Filmes Favoritos</caption>
+           <thead>
+               <tr class="header">
+                   <th scope="col">Grupo</th>
+                   <th scope="col">Nomes</th>
+                   <th colspan="3" scope="col">Filmes</th>
+               </tr>
+           </thead>
+                <tbody>
+                        <tr>
+                            <th rowspan="3" scope="rowgroup">Mulheres</th>
+                            <td class="nome">Ana Maria Santos</td>
+                            <td>Allen</td>
+                            <td>Rambo</td>
+                            <td>Vingadores</td>
+                         </tr>
+                    <tr>
+                        <td class="nome">Beatriz Souza</td>
+                        <td>Oblivion</td>
+                        <td>Matrix</td>
+                        <td>Batman</td>
+                    </tr>
+                    <tr>
+                        <td class="nome">Patricia Melo</td>
+                        <td>Hulk</td>
+                        <td>Spider-Man</td>
+                        <td>Big Hero</td>
+                    </tr>
+                        <tr>
+                            <th rowspan="4" scope="colgroup">Homens</th>
+                            <td class="nome">Marcelo Mendoça</td>
+                            <td>Dr.Estranho</td>
+                            <td>Capitão América</td>
+                            <td>Homem de Ferro</td>
+                        </tr>
+                        <tr>
+                            <td class="nome">Bruno Henrique</td>
+                            <td>Wall-E</td>
+                            <td>Oldboy</td>
+                            <td>Dangal</td>
+                        </tr>
+                        <tr>
+                            <td class="nome">João Gomes</td>
+                            <td>Star Wars 5</td>
+                            <td>Taxi Driver</td>
+                            <td>Toy Story</td>
+                        </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <th colspan="4" scope="row">Total</th>
+                        <td>1000</td>
+                    </tr>
+                </tfoot>
+
+    </>
+
+</body>
+</html>
